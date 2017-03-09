@@ -1,0 +1,54 @@
+<publishData>
+
+	<publishProfile profileName="skipperSite - Web Deploy" publishMethod="MSDeploy" publishUrl="skippersite.scm.azurewebsites.net:443" msdeploySite="skipperSite" userName="$skipperSite" userPWD="zDMuzdFB5eWDPRPQQbgmpHgfoWX798Et6iCeoJ11MNW8oRlH4r5L8LGBXT6T" destinationAppUrl="http://skippersite.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="Database=skipperAo0s7HZMW;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=b43e61dc45a235;Password=e08cfb55" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com" webSystem="WebSites">
+
+		<databases>
+			<add name="skipperAo0s7HZMW" connectionString="Database=skipperAo0s7HZMW;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=b43e61dc45a235;Password=e08cfb55" providerName="MySql.Data.MySqlClient" type="MySql"/>
+		</databases>
+	</publishProfile>
+
+	<publishProfile profileName="skipperSite - FTP" publishMethod="FTP" publishUrl="ftp://waws-prod-db3-013.ftp.azurewebsites.windows.net/site/wwwroot" ftpPassiveMode="True" userName="skipperSite\$skipperSite" userPWD="zDMuzdFB5eWDPRPQQbgmpHgfoWX798Et6iCeoJ11MNW8oRlH4r5L8LGBXT6T" destinationAppUrl="http://skippersite.azurewebsites.net" SQLServerDBConnectionString="" mySQLDBConnectionString="Database=skipperAo0s7HZMW;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=b43e61dc45a235;Password=e08cfb55" hostingProviderForumLink="" controlPanelLink="http://windows.azure.com" webSystem="WebSites">
+
+		<databases>
+			<add name="skipperAo0s7HZMW" connectionString="Database=skipperAo0s7HZMW;Data Source=eu-cdbr-azure-north-e.cloudapp.net;User Id=b43e61dc45a235;Password=e08cfb55" providerName="MySql.Data.MySqlClient" type="MySql"/>
+		</databases>
+
+	</publishProfile>
+	
+</publishData>
+
+
+
+<db and site ftp account>
+
+Hostname:
+ftp://waws-prod-db3-013.ftp.azurewebsites.windows.net/site/wwwroot
+
+User:
+skipperSite\$skipperSite
+
+Password:
+zDMuzdFB5eWDPRPQQbgmpHgfoWX798Et6iCeoJ11MNW8oRlH4r5L8LGBXT6T
+
+URL for browser:
+http://skippersite.azurewebsites.net
+
+
+Admin: 
+http://skippersite.azurewebsites.net/wp-admin/install.php
+
+DB:
+
+eu-cdbr-azure-north-e.cloudapp.net:3306
+
+user: b43e61dc45a235
+pass: e08cfb55
+DBname: skipperAo0s7HZMW
+
+
+
+<install>
+Site title: Skipper
+Username: SkipperSite
+password: zDMuzdFB5eWDPRPQQbgmpHgfoWX798Et6iCeoJ11MNW8oRlH4r5L8LGBXT6T
+
